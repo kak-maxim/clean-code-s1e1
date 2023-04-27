@@ -14,9 +14,9 @@
   </header>
   <main class="main">
     <section class="add" id="add__item">
-      <label class="add__label" for="new-task">Add Item</label>
+      <label class="add__label" id="add__label" for="new-task">Add Item</label>
       <div class="add__wrapper">
-        <input id="new-task" class="input task" type="text">
+        <input id="new-task" class="input-txt task" type="text">
         <button class="button">Add</button>
       </div>
     </section>
@@ -26,16 +26,16 @@
         <li class="todo__list__item">
           <input class="input checkbox" type="checkbox">
           <label class="task label">Pay Bills</label>
-          <input class="task input" type="text">
+          <input class="task input-txt" type="text">
           <button class="edit btn-edit">Edit</button>
           <button class="delete btn-delete">
             <img class="btn-delete" src="./remove.svg" alt="remove">
           </button>
         </li>
         <li class="todo__list__item">
-          <input type="checkbox">
+          <input class="inp__checkbox" type="checkbox">
           <label class="task">Go Shopping</label>
-          <input class="task input" type="text" value="Go Shopping" >
+          <input class="task input-txt" type="text" value="Go Shopping" >
           <button class="edit btn-edit">Save</button>
           <button class="delete btn-delete">
             <img class="btn-delete" src="./remove.svg" alt="remove">
@@ -49,7 +49,7 @@
         <li class="todo__list__item">
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <input type="text" class="task input-txt">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg" alt="remove">

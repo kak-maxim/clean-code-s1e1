@@ -44,11 +44,12 @@ var createNewTaskElement=function(taskString){
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
-    listItem.appendChild(checkBox);
-    listItem.appendChild(label);
-    listItem.appendChild(editInput);
-    listItem.appendChild(editButton);
-    listItem.appendChild(deleteButton);
+    const taglist = [checkBox,label,editInput,editButton,deleteButton]
+    
+    for (let i = 0; i < taglist.length; i++) {
+        listItem.appendChild(taglist[i]);
+    }
+    
     return listItem;
 }
 

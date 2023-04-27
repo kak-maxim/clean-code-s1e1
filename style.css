@@ -110,7 +110,7 @@ input[type="text"]:focus {
     margin: 0 0 20px;
 }
 
-input#new-task {
+input#new__task {
     width: 318px;
 }
 
@@ -155,7 +155,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed__tasks label {
     text-decoration: line-through;
     color: #888;
 }

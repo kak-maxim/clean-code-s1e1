@@ -1,4 +1,19 @@
+
+ul {
+    margin: 0;
+    padding: 0px;
+}
+
+li, h2 {
+    list-style: none;
+}
+
+input,button{
+    outline: none;
+}
+
 /* Basic Style */
+
 body {
     background-color: #f8f8f8;
     color: #333;
@@ -39,22 +54,10 @@ body {
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section__add__wrapper {
     display: flex;
 }
 
-ul {
-    margin: 0;
-    padding: 0px;
-}
-
-li, h3 {
-    list-style: none;
-}
-
-input,button{
-    outline: none;
-}
 
 button {
     background: none;
@@ -71,7 +74,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.todo__title,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
